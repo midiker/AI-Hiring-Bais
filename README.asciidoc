@@ -16,6 +16,7 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 * How these AI technologies(resume & video screening) work?
 
 === 4. Methodology of Study
+* link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
 * Explanation of how features were chosen
 
 === 5. Results and Discussion
