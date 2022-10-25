@@ -1,3 +1,86 @@
-# AI-Hiring-Bais
+= Outline of Automatic Employment Decision Technology Analysis
+With Focus on Bias Against Those with Disabilities
 
-Hypothesis: AI has the potential to improve fairness for individuals with disabilities and others in hiring outcomes, but it causes negative impacts today.
+
+=== 1. Abstract
+* Hypothesis: Lack of accommodation and accessibility features in AI/ML in HCM/TA is causing screen-out harm to candidates with disabilities.
+
+=== 2. Intro
+* Some overall stats on employment and why we should care
+* What is screen-out in HCM/TA?
+* Impacts of these AI technologies on different disabilities
+
+WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring plans
+
+=== 3. Context
+* How these AI technologies(resume & video screening) work?
+
+=== 4. Methodology of Study
+* Explanation of how features were chosen
+
+=== 5. Results and Discussion
+
+* Answer key questions with pivot tables/charts
+* Discuss "Line Leader" & "Problem Child"
+
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg[]
+
+
+=== 6. Conclusions and Recommendations
+
+=== 7. Appendix
+
+===== Data Dictionary
+[cols="1,2,5"]
+|===
+|Features|Values|Description
+
+
+|"Bias-Free"/No bias
+|1 = yes, 0 = no,  2=maybe
+|If yes, company’s website displays the term "Bias-Free" or similar language, such as eliminates bias, in relation to company's AI/ML technology or  AI/ML technology in general.
+
+|Video Screening
+|1 = yes, 0 = no,  2=maybe
+|If yes, company’s website displays that company integrates AI/ML screening algorithms in their TA/HR video software.
+
+|Resume/Profile Screening
+|1 = yes, 0 = no,  2=maybe
+|If yes, company’s website displays that company integrates AI/ML screening algorithms on candidates resumes or profiles in their TA/HR software.
+
+|Chatbots
+|1 = yes, 0 = no,  2=maybe
+|If yes, company’s website displays that company integrates Chatbots in their TA/HR software.
+
+|Addresses Physical Disabilities
+|1 = yes, 0 = no,  2=maybe
+|If yes, company’s website addresses ways to assist and/or the benefits of hiring candidates with physical disabilities.
+
+|Addresses Neurodiversity
+|1 = yes, 0 = no,  2=maybe
+|If yes, company’s website addresses ways to assist and/or the benefits of hiring neurodivergent candidates.
+
+|Public Accessibility Staff
+|1 = yes, 0 = no,  2=maybe
+|If yes, there is public evidence of accessibility staff on the company’s website or LinkedIn.
+
+|Offers Accommodations
+|1 = yes, 0 = no,  2=maybe
+|If yes, company has accommodations directly for the AI/ML software
+
+|Immediate/Timeframe for Accommodations
+|1 = yes, 0 = no,  2=maybe
+|If yes, company gives immediate or a timeframe for when accommodations would be to candidates for AI/ML software.
+
+|Reports Bias Testing
+|1 = yes, 0 = no,  2=maybe
+|If yes, company states on the its website the company preforms a third Party audits or its own audits for bias in their AI/ML models. Note: this might not include bias testing for disability
+
+|Number of Total Staff
+|Small < 100, Medium < 1000, Large > 1001
+|Estimate total employee count on LinkedIn or other website
+|===
+
+=== 8. References
+
+=== 9. Ethical Statement
