@@ -21,9 +21,33 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 === 5. Results and Discussion
 
 * Answer key questions with pivot tables/charts
-* Q1: How do smaller companies compare to the whole sample?
 
+
+** Q1: How do smaller companies compare to the whole sample?
++
 image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q1%20Pivot%20table.png[1000,2000]
+
+** Q2:
+Do companies that don't offer accommodations perform poorly across other categories/features? -WIP
+
+** Q3:
+Does a disparity exist between companies mentioning neurodiversity on their website versus physical disabilities? / Does a company addressing neurodiversity make them more likely to offer disability accommodations versus when a company addresses physical disability?
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q3.png[1000,2000]
+
+** Q4: If a company reports bias testing is it more likely that they offer accommodations?
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q4.png[1000,2000]
+
+** Q5: What percentage of companies offer AI/ML video screening, without any accommodations?
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q5.png[1000,2000]
+
+** Q6: What percentage of companies that offer accommodations also offer them immediately or provide a timeframe? (leading to screen out)
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[1000,2000]
+
+
 
 * Discuss "Line Leader" & "Problem Child"
 
