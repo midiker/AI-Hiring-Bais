@@ -37,15 +37,15 @@ image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q3.png
 
 ** Q4: If a company reports bias testing is it more likely that they offer accommodations?
 +
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q4.png[100,1000]
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q4.png[100,300]
 
 ** Q5: What percentage of companies offer AI/ML video screening, without any accommodations?
 +
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q5.png[100,1000]
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q5.png[100,300]
 
 ** Q6: What percentage of companies that offer accommodations also offer them immediately or provide a timeframe? (leading to screen out)
 +
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[100,1000]
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[100,300]
 
 
 
