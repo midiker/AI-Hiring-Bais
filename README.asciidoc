@@ -23,7 +23,7 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 * Answer key questions with pivot tables/charts
 * Q1: How do smaller companies compare to the whole sample?
 
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q1%20Pivot%20table.png[640,100, pdfwidth=80%,scaledwidth=80%]
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q1%20Pivot%20table.png[640,50, pdfwidth=80%,scaledwidth=80%]
 
 * Discuss "Line Leader" & "Problem Child"
 
