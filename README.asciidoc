@@ -1,5 +1,4 @@
-= Outline of Automatic Employment Decision Technology Analysis
-With Focus on Bias Against Those with Disabilities
+= Outline of Automatic Employment Decision Technology Analysis with Focus on Bias Against Those with Disabilities
 
 
 === 1. Abstract
