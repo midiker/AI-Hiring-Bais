@@ -22,6 +22,10 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 === 5. Results and Discussion
 
 * Answer key questions with pivot tables/charts
+* Q1
+
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q1%20Pivot%20table.png[width=30040,height=3000, 640,480, pdfwidth=80%,scaledwidth=80%]
+
 * Discuss "Line Leader" & "Problem Child"
 
 image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg[]
