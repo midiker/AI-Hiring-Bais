@@ -6,7 +6,13 @@
 
 === 2. Intro
 * Some overall stats on employment and why we should care
+** In 2021, 16 to 64 years old persons with a disability had over double the rate of unemployment of 10.8%
+** In 2020, the percentage of persons with a disability making $75k or more a year was 40.01% less than those without a disability
+
 * What is screen-out in HCM/TA?
+
+**  "Screen out because of a disability is unlawful if the individual who is screened out is able to perform the essential functions of the job, with a reasonable accommodation if one is legally required" - EECO
+
 * Impacts of these AI technologies on different disabilities
 
 WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring plans
@@ -17,6 +23,7 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 === 4. Methodology of Study
 * link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
 * Explanation of how features were chosen
+
 
 === 5. Results and Discussion
 
@@ -45,18 +52,22 @@ image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q5.png
 
 ** Q6: What percentage of companies that offer accommodations also offer them immediately or provide a timeframe? (leading to screen out)
 +
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[100,300]
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[100,500]
 
-
-
-* Discuss "Line Leader" & "Problem Child"
+** Decision Tree
++
 
 image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg[]
 
+* Discuss "Line Leader" & "Problem Child"
 
 === 6. Conclusions and Recommendations
 
-=== 7. Appendix
+=== 7. Ethical Statement
+
+=== 8. References
+
+=== 9. Appendix
 
 ===== Data Dictionary
 [cols="1,2,5"]
@@ -108,7 +119,3 @@ image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg
 |Small < 100, Medium < 1000, Large > 1001
 |Estimate total employee count on LinkedIn or other website
 |===
-
-=== 8. References
-
-=== 9. Ethical Statement
