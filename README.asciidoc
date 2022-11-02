@@ -47,6 +47,8 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 
 
 ** Q1: How do smaller companies compare to the whole sample?
+
+
 | | ‘Bias-Free'/No bias | Video Screening | Chatbots | Resume/Profile Screening | Addresses Physical Disabilities | Addresses Neurodiversity | Public Accessability Staff | Offers Accommodations | Reports Bias Testing | |---:|----------------------:|------------------:|-----------:|---------------------------:|----------------------------------:|---------------------------:|-----------------------------:|------------------------:|-----------------------:| | 0 | 11.67 | -3.33 | 5 | 5 | 15 | 18.33 | 16.67 | 23.33 | 31.67 | | 2 | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33 | | 1 | -8.34 |
 
 ** Q2:
