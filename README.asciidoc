@@ -7,6 +7,7 @@
 * Basic summary of results (1-2 sentences)
 
 === 2. Intro
+
 * Some overall stats on employment and why we should care
 ** In 2021, 16 to 64 years old persons with a disability had over double the rate of unemployment of 10.8%
 ** In 2020, the percentage of persons with a disability making $75k or more a year was 40.01% less than those without a disability
@@ -18,8 +19,11 @@
 
 ** AI Video screening: Convolutional Neural Networks (CNN) are used
 
-** Recommendation Systems: Generalized Linear Mixed (GLMix) models which combines learning-to-rank features, tree interaction features, and GBDT model scores.
+** Emotion recognition systems are particularly worrisome (optional)
+*** "Developments in the biometrics and emotion AI market are immature. They may not work yet, or indeed ever."
+*** Similar quotes from NIST: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf, pg. 24/75
 
+** Recommendation Systems: Simpler, transparent systems, based on https://www.pnas.org/doi/10.1073/pnas.1915006117
 
 [WARNING]
 ====
@@ -37,60 +41,10 @@
 ** Some “gamified” tests maybe benefice for some neurodivergent candidates but not for candidates with other disabilities such as physical disabilities
 ** AI video interview software negatively impacts both neurodivergent and physical disabilities candidates
 
-=== 4. Methodology of Study
+=== 3. Methodology of Study
 * link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
-* Explanation of how features were chosen
 
-
-=== 5. Results and Discussion
-
-* Answer key questions with pivot tables/charts
-
-
-** Q1: How do smaller companies compare to the whole sample?
-
-[options="header"]
-|=======
-| | ‘Bias-Free'/No bias | Video Screening | Chatbots | Resume/Profile Screening | Addresses Physical Disabilities | Addresses Neurodiversity | Public Accessability Staff | Offers Accommodations | Reports Bias Testing | 
-| Yes | 11.67 | -3.33 | 5 | 5 | 15 | 18.33 | 16.67 | 23.33 | 31.67 | 
-| No | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33 | 
-| Maybe | -8.34 | 5.00 | -1.66 | -5.0 | -15.0 | -18.33 | -16.67 | -16.67 | -28.34 |
-|=======
-
-** Q2:
-Do companies that don't offer accommodations perform poorly across other categories/features? -WIP
-
-** Q3:
-Does a disparity exist between companies mentioning neurodiversity on their website versus physical disabilities? / Does a company addressing neurodiversity make them more likely to offer disability accommodations versus when a company addresses physical disability?
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q3.png[1000,2000]
-
-** Q4: If a company reports bias testing is it more likely that they offer accommodations?
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q4.png[100,300]
-
-** Q5: What percentage of companies offer AI/ML video screening, without any accommodations?
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q5.png[100,300]
-
-** Q6: What percentage of companies that offer accommodations also offer them immediately or provide a timeframe? (leading to screen out)
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[100,500]
-
-** Decision Tree
-+
-
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg[]
-
-* Discuss "Line Leader" & "Problem Child"
-
-=== 6. Conclusions and Recommendations
-
-=== 7. Ethical Statement
-
-=== 8. References
-
-=== 9. Appendix
+** Explanation of how data was collected (4-5 sentence paragraph)
 
 ===== Data Dictionary
 [cols="1,2,5"]
@@ -142,3 +96,61 @@ image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg
 |Small < 100, Medium < 1000, Large > 1001
 |Estimate total employee count on LinkedIn or other website
 |===
+
+* Explanation of analysis
+** Pivot tables (categorical descriptive stats, counts and frequencies)
+** Simple models
+** Jupyter, python, packages, colab, etc. re-link to code: link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
+
+=== 4. Results and Discussion
+
+* Layout major questions as bullets
+
+** Q1: How do smaller companies compare to the whole sample?
+
+[options="header"]
+|=======
+| | ‘Bias-Free'/No bias | Video Screening | Chatbots | Resume/Profile Screening | Addresses Physical Disabilities | Addresses Neurodiversity | Public Accessability Staff | Offers Accommodations | Reports Bias Testing | 
+| Yes | 11.67 | -3.33 | 5 | 5 | 15 | 18.33 | 16.67 | 23.33 | 31.67 | 
+| No | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33 | 
+| Maybe | -8.34 | 5.00 | -1.66 | -5.0 | -15.0 | -18.33 | -16.67 | -16.67 | -28.34 |
+|=======
+
+** provide analysis 
+** repeat for each table
+
+** Q2:
+Do companies that don't offer accommodations perform poorly across other categories/features? -WIP
+
+** Q3:
+Does a disparity exist between companies mentioning neurodiversity on their website versus physical disabilities? / Does a company addressing neurodiversity make them more likely to offer disability accommodations versus when a company addresses physical disability?
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q3.png[1000,2000]
+
+** Q4: If a company reports bias testing is it more likely that they offer accommodations?
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q4.png[100,300]
+
+** Q5: What percentage of companies offer AI/ML video screening, without any accommodations?
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q5.png[100,300]
+
+** Q6: What percentage of companies that offer accommodations also offer them immediately or provide a timeframe? (leading to screen out)
++
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[100,500]
+
+** Decision Tree
++
+
+image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg[]
+
+* Discuss "Line Leader" & "Problem Child"
+
+=== 5. Conclusions and Recommendations
+
+=== 6. Ethical Statement
+
+=== 7. References
+
+=== 8. Appendix
+
