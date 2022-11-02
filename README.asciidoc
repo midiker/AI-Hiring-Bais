@@ -3,11 +3,15 @@
 
 === 1. Abstract
 * Hypothesis: Lack of accommodation and accessibility features in AI/ML in HCM/TA is causing screen-out harm to candidates with disabilities.
+* Basic summary of what you did (1-2 sentences)
+* Basic summary of results (1-2 sentences)
 
 === 2. Intro
 * Some overall stats on employment and why we should care
 ** In 2021, 16 to 64 years old persons with a disability had over double the rate of unemployment of 10.8%
 ** In 2020, the percentage of persons with a disability making $75k or more a year was 40.01% less than those without a disability
+
+* In general AI systems are marketed as being objective and helping with bias, but traditional bias testing often ignores those with disabilities and issues around screenout, when companies even atttempt to tackle these issues. Many don't as we'll see below.
 
 * What is screen-out in HCM/TA?
 
@@ -19,6 +23,7 @@
 
 ** Some “gamified” tests maybe benefice for some neurodivergent candidates but not for candidates with other disabilities such as physical disabilities
 ** AI video interview software negatively impacts both neurodivergent and physical disabilities candidates
+
 
 WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring plans
 
@@ -42,8 +47,7 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 
 
 ** Q1: How do smaller companies compare to the whole sample?
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q1%20Pivot%20table.png[1000,2000]
+| | ‘Bias-Free'/No bias | Video Screening | Chatbots | Resume/Profile Screening | Addresses Physical Disabilities | Addresses Neurodiversity | Public Accessability Staff | Offers Accommodations | Reports Bias Testing | |---:|----------------------:|------------------:|-----------:|---------------------------:|----------------------------------:|---------------------------:|-----------------------------:|------------------------:|-----------------------:| | 0 | 11.67 | -3.33 | 5 | 5 | 15 | 18.33 | 16.67 | 23.33 | 31.67 | | 2 | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33 | | 1 | -8.34 |
 
 ** Q2:
 Do companies that don't offer accommodations perform poorly across other categories/features? -WIP
