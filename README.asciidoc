@@ -13,6 +13,19 @@
 
 * In general AI systems are marketed as being objective and helping with bias, but traditional bias testing often ignores those with disabilities and issues around screenout, when companies even atttempt to tackle these issues. Many don't as we'll see below.
 
+* How these AI technologies(resume & video screening) work/ what algorithms do companies?
+** Resume Screening: Natural Language Process algorithms are used for keywords and grammar extracting
+
+** AI Video screening: Convolutional Neural Networks (CNN) are used
+
+** Recommendation Systems: Generalized Linear Mixed (GLMix) models which combines learning-to-rank features, tree interaction features, and GBDT model scores.
+
+
+[WARNING]
+====
+99% of Fortune 500 companies had AI tools somewhere within their hiring plans
+====
+
 * What is screen-out in HCM/TA?
 
 **  "Screen out because of a disability is unlawful if the individual who is screened out is able to perform the essential functions of the job, with a reasonable accommodation if one is legally required" - ADA
@@ -23,18 +36,6 @@
 
 ** Some “gamified” tests maybe benefice for some neurodivergent candidates but not for candidates with other disabilities such as physical disabilities
 ** AI video interview software negatively impacts both neurodivergent and physical disabilities candidates
-
-
-WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring plans
-
-=== 3. Context
-* How these AI technologies(resume & video screening) work/ what algorithms do companies?
-** Resume Screening: Natural Language Process algorithms are used for keywords and grammar extracting
-
-** AI Video screening: Convolutional Neural Networks (CNN) are used
-
-** Recommendation Systems: Generalized Linear Mixed (GLMix) models which combines learning-to-rank features, tree interaction features, and GBDT model scores.
-
 
 === 4. Methodology of Study
 * link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
