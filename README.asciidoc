@@ -11,14 +11,25 @@
 
 * What is screen-out in HCM/TA?
 
-**  "Screen out because of a disability is unlawful if the individual who is screened out is able to perform the essential functions of the job, with a reasonable accommodation if one is legally required" - EECO
+**  "Screen out because of a disability is unlawful if the individual who is screened out is able to perform the essential functions of the job, with a reasonable accommodation if one is legally required" - ADA
+
+** Examples: Gamification, AI video interview software, Chatbots and other algorithmic decision-making tools
 
 * Impacts of these AI technologies on different disabilities
+
+** Some “gamified” tests maybe benefice for some neurodivergent candidates but not for candidates with other disabilities such as physical disabilities
+** AI video interview software negatively impacts both neurodivergent and physical disabilities candidates
 
 WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring plans
 
 === 3. Context
-* How these AI technologies(resume & video screening) work?
+* How these AI technologies(resume & video screening) work/ what algorithms do companies?
+** Resume Screening: Natural Language Process algorithms are used for keywords and grammar extracting
+
+** AI Video screening: Convolutional Neural Networks (CNN) are used
+
+** Recommendation Systems: Generalized Linear Mixed (GLMix) models which combines learning-to-rank features, tree interaction features, and GBDT model scores.
+
 
 === 4. Methodology of Study
 * link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
