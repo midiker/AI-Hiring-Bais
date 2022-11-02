@@ -25,10 +25,7 @@
 
 ** Recommendation Systems: Simpler, transparent systems, based on https://www.pnas.org/doi/10.1073/pnas.1915006117
 
-[WARNING]
-====
-99% of Fortune 500 companies had AI tools somewhere within their hiring plans
-====
+WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring plans
 
 * What is screen-out in HCM/TA?
 
