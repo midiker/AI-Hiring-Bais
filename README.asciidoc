@@ -3,8 +3,9 @@
 
 === 1. Abstract
 * Hypothesis: Lack of accommodation and accessibility features in AI/ML in HCM/TA is causing screen-out harm to candidates with disabilities.
-* Basic summary of what you did (1-2 sentences)
-* Basic summary of results (1-2 sentences)
+* Study summary: In this study we collected and explored data for 30 AI companies that offer HCM/TA products. Specifically, we looked at the information they made public regarding their accommodations and accessibility features
+related to their AI products. We also collected and categorized further information on the size of each company, the specific products being offered, if they conduct bias testing, and if the company has accessibility staff.
+* Summary of results: We found a major of companies in our study do not offer accommodations in their AI products and are not actively addressing candidates with disabilities in the public eye which can lead to screen-out.
 
 === 2. Intro
 
@@ -12,9 +13,9 @@
 ** In 2021, 16 to 64 years old persons with a disability had over double the rate of unemployment of 10.8%
 ** In 2020, the percentage of persons with a disability making $75k or more a year was 40.01% less than those without a disability
 
-* In general AI systems are marketed as being objective and helping with bias, but traditional bias testing often ignores those with disabilities and issues around screenout, when companies even atttempt to tackle these issues. Many don't as we'll see below.
+* In general AI systems are marketed as being objective and helping with bias, but traditional bias testing often ignores those with disabilities and issues around screen-out, when companies even attempt to tackle these issues. Many don't as we'll see below.
 
-* How these AI technologies(resume & video screening) work/ what algorithms do companies?
+* How these AI technologies(resume & video screening) work/ what algorithms do companies use?
 ** Resume Screening: Natural Language Process algorithms are used for keywords and grammar extracting
 
 ** AI Video screening: Convolutional Neural Networks (CNN) are used
@@ -41,10 +42,10 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 === 3. Methodology of Study
 * link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
 
-** Explanation of how data was collected (4-5 sentence paragraph)
+** Explanation of how data was collected (4-5 sentence paragraph): First we created a 30 companies list of the top AI companies offering HCM/TA products including well-know Fortune 500 companies to small start ups. 
 
 ===== Data Dictionary
-[cols="1,2,5"]
+[cols="1,2,5", options="header"]
 |===
 |Features|Values|Description
 
@@ -107,13 +108,13 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 
 [options="header"]
 |=======
-| | ‘Bias-Free'/No bias | Video Screening | Chatbots | Resume/Profile Screening | Addresses Physical Disabilities | Addresses Neurodiversity | Public Accessability Staff | Offers Accommodations | Reports Bias Testing | 
-| Yes | 11.67 | -3.33 | 5 | 5 | 15 | 18.33 | 16.67 | 23.33 | 31.67 | 
-| No | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33 | 
-| Maybe | -8.34 | 5.00 | -1.66 | -5.0 | -15.0 | -18.33 | -16.67 | -16.67 | -28.34 |
+| | ‘Bias-Free'/No bias | Video Screening | Chatbots | Resume/Profile Screening | Addresses Physical Disabilities | Addresses Neurodiversity | Public Accessability Staff | Offers Accommodations | Reports Bias Testing
+| Yes | 11.67 | -3.33 | 5 | 5 | 15 | 18.33 | 16.67 | 23.33 | 31.67
+| No | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33
+| Maybe | -8.34 | 5.00 | -1.66 | -5.0 | -15.0 | -18.33 | -16.67 | -16.67 | -28.34
 |=======
 
-** provide analysis 
+** provide analysis
 ** repeat for each table
 
 ** Q2:
@@ -125,16 +126,34 @@ Does a disparity exist between companies mentioning neurodiversity on their webs
 image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q3.png[1000,2000]
 
 ** Q4: If a company reports bias testing is it more likely that they offer accommodations?
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q4.png[100,300]
+
+[cols="1,2", options="header"]
+|===
+| |  Offers Accommodations
+|Yes |54.55%
+|No |27.27%
+|Maybe |18.18%
+|===
 
 ** Q5: What percentage of companies offer AI/ML video screening, without any accommodations?
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q5.png[100,300]
+
+[cols="1,2", options="header"]
+|===
+| |  Offers Accommodations
+|Yes |83.33%
+|No |16.67%
+|Maybe |0%
+|===
 
 ** Q6: What percentage of companies that offer accommodations also offer them immediately or provide a timeframe? (leading to screen out)
-+
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/Q6.png[100,500]
+
+[cols="1,2", options="header"]
+|===
+| |  Immediate/Timeframe for Accommodations
+|Yes |40.00%
+|No |40.00%
+|Maybe |20.00%
+|===
 
 ** Decision Tree
 +
@@ -151,4 +170,3 @@ image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg
 === 7. References
 
 === 8. Appendix
-
