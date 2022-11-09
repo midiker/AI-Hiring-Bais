@@ -2,6 +2,7 @@
 
 
 === 1. Abstract
+
 * Hypothesis: Lack of accommodation and accessibility features in AI/ML in HCM/TA is causing screen-out harm to candidates with disabilities.
 * Study summary: In this study we collected and explored data for 30 AI companies that offer HCM/TA products. Specifically, we looked at the information they made public regarding their accommodations and accessibility features
 related to their AI products. We also collected and categorized further information on the size of each company, the specific products being offered, if they conduct bias testing, and if the company has accessibility staff.
@@ -171,10 +172,15 @@ passed by candidates that do not required accommodations.
 
 image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg[]
 
-* Discuss "Line Leader" & "Problem Child"
+* Discuss "Line Leader" & "Problem Child" (?)
 
 === 5. Conclusions and Recommendations
 * What can you say, exactly, about the hypothesis, based on the results presented here?
+* If I'm building an AI system, what would Melis tell me to do?
+  * Have Accomodations
+  * Opt-out
+  * Information sharing - "database idea"
+
 
 === 6. Ethical Statement
 
