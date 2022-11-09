@@ -170,7 +170,7 @@ passed by candidates that do not required accommodations.
 ** Decision Tree
 +
 
-image::https://raw.githubusercontent.com/midiker/aedt-analysis/main/image/DT.jpg[]
+image::image/DT.jpg[]
 
 * Discuss "Line Leader" & "Problem Child" (?)
 
