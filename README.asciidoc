@@ -1,14 +1,13 @@
 = Outline of Automatic Employment Decision Technology Analysis with Focus on Bias Against Those with Disabilities
 
-
-=== 1. Abstract
+== 1. Abstract
 
 * Hypothesis: Lack of accommodation and accessibility features in AI/ML in HCM/TA is causing screen-out harm to candidates with disabilities.
 * Study summary: In this study we collected and explored data for 30 AI companies that offer HCM/TA products. Specifically, we looked at the information they made public regarding their accommodations and accessibility features
 related to their AI products. We also collected and categorized further information on the size of each company, the specific products being offered, if they conduct bias testing, and if the company has accessibility staff.
 * Summary of results: We found a major of companies in our study do not offer accommodations in their AI products and are not actively addressing candidates with disabilities in the public eye which can lead to screen-out.
 
-=== 2. Intro
+== 2. Intro
 
 * Some overall stats on employment and why we should care
 ** In 2021, 16 to 64 years old persons with a disability had over double the rate of unemployment of 10.8%
@@ -40,7 +39,7 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 ** Some “gamified” tests maybe benefice for some neurodivergent candidates but not for candidates with other disabilities such as physical disabilities
 ** AI video interview software negatively impacts both neurodivergent and physical disabilities candidates
 
-=== 3. Methodology of Study
+== 3. Methodology of Study
 * link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
 
 ** Explanation of how data was collected (4-5 sentence paragraph): First we created a 30 companies list of the top AI companies offering HCM/TA products including both well-know Fortune 500 companies and small start ups.
@@ -48,7 +47,7 @@ Then we assessed what type of HCM/TA product(s) does the company offer such as v
 or or used similar language which is very concerning. Also we looked if there is public evidence of accessibility staff on the company’s website or LinkedIn and has accommodations directly for the AI/ML software displays
 on their website.
 
-===== Data Dictionary
+=== Data Dictionary
 [cols="1,2,5", options="header"]
 |===
 |Features|Values|Description
