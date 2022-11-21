@@ -19,7 +19,7 @@ disabilities even before the involvement of human bias.
 == Introduction
 
 [.indent]
-In 2021, persons aged 16 to 64 with a disability had more than double the rate of employment for typically abled people at 10.8%. Persons with disabilities are the largest minority group in the United States, but often have the least representation.This has been an ongoing issue that disability activists feel has been exacerbated with the rapid growth of some technologies.
+In 2021, persons aged 16 to 64 with a disability had more than double the rate of employment for typically abled people at 10.8%footnote:[https://www.bls.gov/news.release/disabl.a.htm]. Persons with disabilities are the largest minority group in the United States, but often have the least representation.This has been an ongoing issue that disability activists feel has been exacerbated with the rapid growth of some technologies.
 In general AI systems are marketed as being objective and helping to reduce or eliminate bias, however traditional bias testing often ignores those with disabilities and related issues around screen-out, when companies even attempt to tackle these issues. Many companies do not even opt to perform bias testing, as will be explored herein.
 
 [.indent]
@@ -42,7 +42,8 @@ WARNING: 99% of Fortune 500 companies had AI tools somewhere within their hiring
 The Americans with Disabilities Act (ADA) states that "Screen out because of a disability is unlawful if the individual who is screened out is able to perform the essential functions of the job, with a reasonable accommodation if one is legally required". Some examples are Gamification,
 AI video interview software, and Chatbots without providing accommodations. These AI technologies affect candidates with different disabilities in various ways. Some “gamified” tests maybe present an advantage for some neurodivergent candidates but not for others candidates
 with physical disabilities. AI video interview software can negatively impact both neurodivergent and physical disabilities candidates. For example, an algorithm may not recognize a candidate with a speech impairment, or for neurodivergent candidates face reading software may score them
-low for not showing socially acceptable facial expressions. The lack of employees with disabilities in the technology industry contribute to the proliferation of these technologies and an increase in screen-outs. In 2020, the percentage of persons with a disability making $75k or more a year was 40.01% less than those without a disability. There is a significant gap of representation among higher paying careers and screen-outs caused by AI hiring technology
+low for not showing socially acceptable facial expressions. The lack of employees with disabilities in the technology industry contribute to the proliferation of these technologies and an increase in screen-outs. In 2020, the percentage of persons with a disability making $75k or more a
+year was 40.01% less than those without a disabilityfootnote:[https://data.census.gov/table?q=Disability&tid=ACSST5Y2020.S1811]. There is a significant gap of representation among higher paying careers and screen-outs caused by AI hiring technology
 creates a larger gap.
 
 
