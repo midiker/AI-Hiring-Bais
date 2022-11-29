@@ -107,10 +107,19 @@ on their website.
 |Estimate total employee count on LinkedIn or other website
 |===
 
-* Explanation of analysis
-** Pivot tables (categorical descriptive stats, counts and frequencies)
-** Simple models
-** Jupyter, python, packages, colab, etc. re-link to code: link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
+[.indent]
+
+After data  collection, we performed data exploration with categorical descriptive statistics, such as counts and frequencies, and decision tree. This gave us the ability to find trends and draw conclusions about our dataset and evaluate our hypothesis.
+
+** Columns used as targets in the final model: ‘Offers Accommodations_Yes'
+
+** Type of models: Decision Tree Model
+
+** Software used to implement the model: Python on colab, ‘sklearn', 'numpy', 'pandas', 'time', 'matplotlib.pyplot', and 'matplotlib.lines'.
+
+** Version of the modeling software:’python 3.7.15’,'numpy 1.18.5', and 'pandas 1.0.5
+
+** link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
 
 == Results and Discussion
 
@@ -136,6 +145,24 @@ Do companies that don't offer accommodations perform poorly across other categor
 Does a disparity exist between companies mentioning neurodiversity on their website versus physical disabilities? / Does a company addressing neurodiversity make them more likely to offer disability accommodations versus when a company addresses physical disability?
 +
 image::image/Q3.png[1000,2000]
+
+[options="header"]
+|=======
+| Addresses Physical Disabilities | Addresses Neurodiversity | Offers Accommodations | Count
+| No | No | Maybe | 0
+|  |  | No | 15
+|  |  | Yes | 0
+|  | Yes | Maybe | 2
+|  |  | No | 2
+|  |  | Yes | 4
+| Yes | No | Maybe | 0
+| | | No | 2
+|  | | Yes | 0
+| | Yes | Maybe | 0
+| | |No | 4
+| | |Yes | 1
+|=======
+
 *** As shown in table 3, we can clearly observe that half of our companies in the sample do not address physical disabilities or neurodiversity and do not offer accommodations of any kind. However, we can also see that for the companies that do offer accommodations, they only address neurodiversity. There is only one company out of the sample that addresses both physical disabilities and neurodiversity. Another interesting observation is that four companies that do not offer accommodations address both physical disabilities and neurodiversity.
 
 ** Q4: If a company reports bias testing is it more likely that they offer accommodations?
@@ -180,18 +207,20 @@ passed by candidates that do not required accommodations.
 
 image::image/DT.jpg[]
 
-* Discuss "Line Leader" & "Problem Child" (?)
+
 
 == Conclusions and Recommendations
-* What can you say, exactly, about the hypothesis, based on the results presented here?
-* If I'm building an AI system, what would Melis tell me to do?
-  * Have Accomodations
-  * Opt-out
-  * Information sharing - "database idea"
+
+[.indent]
+Over the course of this study we investigated if the lack of accommodation and accessibility features in AI/ML and HCM/TA is causing screen-out harm to candidates with disabilities. After our analysis, there is clear evidence that AI companies who produce HCM/TA products have the capability to improve their accessibility features and shrink the gap of screen-outs for candidates with disabilities. It’s inherent that companies need to offer accessibility features and accommodations however it’s deeper than that. Only offering accommodations does not necessarily mean the risk of screen-out is significantly less. The timeframe of applicants receiving approval for those accommodations can play a prominent role in job opportunities, information sharing could assist with this concern. By information sharing we mean the sharing of voluntarily given personal data between public entities or other organizations for a specific goal through the exchange, collection, use, or disclosure. This would provide candidates with disabilities the opportunity to input information about their disabilities and needed accommodations to a government database. When a candidate requests accommodations the AI company can connect to that database and automatically grant accommodations to the candidate immediately. This would have to come with some regulation like audits conducted by the government to ensure companies are not using this information to do disparate treatment.
+
+Companies have the responsibility to market their products correctly and avoid misleading language such as “Bias-free” if it does not actually apply. Moreover, we recommend that companies conduct bias-testing and include candidates with disabilities to avoid disparate impact. Especially bias testing for resume/profile screening and other systems that rely more on AI/ML processes, since accommodations are not as applicable in these circumstances. To mitigate the risk of producing biased outcomes, companies should collect demographically representative training data, sample and reweigh training data, reconsider dictionaries for stopwords, and consider fairness metrics when selecting hyperparameters and cutoff thresholds. Companies should also have an opt-out option for selection methods like having a live interview and/or not permitting companies to use an algorithm in their decision-making process. Product or comparative testing with those who have disabilities is also recommended to iterate a company’s prototype. This is especially important for companies that do have the resources for accessibility staff. Furthermore, employing a diverse design team is important in producing a more inclusive and accurate product. Teams with employees who have disabilities have 72% more productivity and produce 30% higher profit margins,wordsfootnote:[https://www.accenture.com/_acnmedia/pdf-89/accenture-disability-inclusion-research-report.pdf] Companies should always refer to the link:https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf[NIST’s  Standard for Identifying and Managing Bias in Artificial Intelligence] when designing any AI products.
 
 
-== Ethical Statement
+
 
 == References
+
+Issuing Authority                                                                                              This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission., and This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. “The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees.” US EEOC. Accessed November 28, 2022. https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.
 
 == Appendix
