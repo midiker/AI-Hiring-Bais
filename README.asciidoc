@@ -139,7 +139,24 @@ After data  collection, we performed data exploration with categorical descripti
 However, smaller companies performed worse on the majority of categories, including “offering accommodations,” “having accessibility staff,” “reporting bias testing.” This makes sense on its face, smaller companies with access to less resources would not prioritize these accommodations, however this does not excuse such behavior.
 
 ** Q2:
-Do companies that don't offer accommodations perform poorly across other categories/features? -WIP
+Do companies that don't offer accommodations perform poorly across other categories/features?
++
+[options="header"]
+|=======
+| ‘Bias-Free'/No bias  | Video Screening | Offers Accommodations  |   Count
+| Maybe | Maybe | Yes |   1
+|  | No| No    |       5
+| No| Maybe | No  |       2
+| | No | Maybe    |       2
+| | | No    |            9
+| |  | Yes      |       3
+| | Yes| No     |        2
+|  |  | Yes      |         1
+| Yes | No | No    |         2
+|  | Yes | No    |           3
+|=======
+
+*** This show a surprising trend of the highest count performed better across other categories/features. 
 
 ** Q3:
 Does a disparity exist between companies mentioning neurodiversity on their website versus physical disabilities? / Does a company addressing neurodiversity make them more likely to offer disability accommodations versus when a company addresses physical disability?
@@ -149,17 +166,12 @@ image::image/Q3.png[1000,2000]
 [options="header"]
 |=======
 | Addresses Physical Disabilities | Addresses Neurodiversity | Offers Accommodations | Count
-| No | No | Maybe | 0
-|  |  | No | 15
-|  |  | Yes | 0
+| No | No | No | 15
 |  | Yes | Maybe | 2
 |  |  | No | 2
 |  |  | Yes | 4
-| Yes | No | Maybe | 0
-| | | No | 2
-|  | | Yes | 0
-| | Yes | Maybe | 0
-| | |No | 4
+| Yes | No | No | 2
+| |Yes |No | 4
 | | |Yes | 1
 |=======
 
@@ -224,3 +236,5 @@ Companies have the responsibility to market their products correctly and avoid m
 Issuing Authority                                                                                              This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission., and This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. “The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees.” US EEOC. Accessed November 28, 2022. https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.
 
 == Appendix
+
+image::image/bar_chart.png[1000,2000]
