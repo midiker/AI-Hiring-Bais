@@ -24,7 +24,7 @@ In general AI systems are marketed as being objective and helping to reduce or e
 
 [.indent]
 There are two main types of Algorithmic Decision-Making Tools used in the HCM/TA industry; “Resume/Profile Screening” and “AI Video Screening.” Resume Screening uses Natural Language Process(NLP) algorithms to search  for keywords and grammar which are used to
-pick to rank candidates. Previous studies like STUDY_NAME, have already found gender based biases in AI systems, which indicated that these systems do not perform as advertised and fail to be objective along some vectors of discrimination. For example, if a resume contains keywords like
+pick to rank candidates. Previous studies like "Amazon scraps secret AI recruiting tool that showed bias against women", have already found gender based biases in AI systems, which indicated that these systems do not perform as advertised and fail to be objective along some vectors of discrimination. For example, if a resume contains keywords like
 "Women's Honors Society" the algorithm could rank a candidate lower. This tends to be the fault of poor training data for these algorithms, the lack of a diverse dataset can lead to screen outs and poor representation. Some algorithms use current employees’ resumes as training data, which
 may only create an algorithm that reflects that built-in hiring biases the algorithm was built to subvert.
 Though companies have attempted to address and solve this  issue by removing these stop wordsfootnote:[Stop words are words that are filtered out of a stop list before or after natural language data processing because they are irrelevant.]
@@ -235,6 +235,9 @@ Companies have the responsibility to market their products correctly and avoid m
 
 Issuing Authority                                                                                              This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission., and This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. “The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees.” US EEOC. Accessed November 28, 2022. https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.
 
+
+Dastin, Jeffrey. "Amazon scraps secret AI recruiting tool that showed bias against women." In Ethics of Data and Analytics, pp. 296-299. Auerbach Publications, 2018.
+
 == Appendix
 
-image::image/bar_chart.png[1000,2000]
+image::image/bar_chart.png[2000,2000]
