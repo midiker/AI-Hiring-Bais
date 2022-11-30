@@ -156,7 +156,7 @@ Do companies that don't offer accommodations perform poorly across other categor
 |  | Yes | No    |           3
 |=======
 
-*** This show a surprising trend of the highest count performed better across other categories/features.
+*** This shows a surprising trend of the highest count performing better across other categories/features specifically not marketing their product as ‘Bias-Free'/No bias  and conducting AI Video Screening.
 
 ** Q3:
 Does a disparity exist between companies mentioning neurodiversity on their website versus physical disabilities? / Does a company addressing neurodiversity make them more likely to offer disability accommodations versus when a company addresses physical disability?
