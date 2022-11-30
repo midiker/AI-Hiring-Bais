@@ -52,9 +52,9 @@ link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code
 
 [.indent]
 First we created a 30 companies list of the top AI companies offering HCM/TA products including both well-know Fortune 500 companies and small start ups.
-Then we assessed what type of HCM/TA product(s) does the company offer such as video screening, resume/profile screening, and/or Chatbots. Further we invested if the company's website marketed their product as "Bias-Free"
-or or used similar language which is very concerning. Also we looked if there is public evidence of accessibility staff on the company’s website or LinkedIn and has accommodations directly for the AI/ML software displays
-on their website.
+Then we assessed what type of HCM/TA product(s) does the company offer such as video screening, resume/profile screening, and/or Chatbots. Furthermore
+we invested if the company's website marketed their product as "Bias-Free" or or used similar language which is very concerning. We looked if there is public evidence of accessibility staff on the company’s website or LinkedIn and has accommodations directly for the AI/ML software displays
+on their website including timeframe on those given accommodations. Investigating the compression of the company's addressment of different types of disabilities.
 
 === Data Dictionary
 [cols="1,2,5", options="header"]
