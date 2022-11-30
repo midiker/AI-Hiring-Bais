@@ -233,10 +233,10 @@ Companies have the responsibility to market their products correctly and avoid m
 
 == References
 
-Issuing Authority                                                                                              This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission., and This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. “The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees.” US EEOC. Accessed November 28, 2022. https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.
+1. Issuing Authority                                                                                              This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission., and This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. “The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees.” US EEOC. Accessed November 28, 2022. https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.
 
 
-Dastin, Jeffrey. "Amazon scraps secret AI recruiting tool that showed bias against women." In Ethics of Data and Analytics, pp. 296-299. Auerbach Publications, 2018.
+2. Dastin, Jeffrey. "Amazon scraps secret AI recruiting tool that showed bias against women." In Ethics of Data and Analytics, pp. 296-299. Auerbach Publications, 2018.
 
 == Appendix
 
