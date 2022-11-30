@@ -6,7 +6,7 @@
 * "Company" --> "Organization"
 * Move image out of appendix into results and discussion, and describe with a short paragraph
 * Remove static images table and replace with asciidoc. When you describe the table, you can describe how to read the table. 
-* Make sure all tables and figures have a description and short paragraph.
+* Make sure all tables and figures have a title and description as a short paragraph.
 
 = Automatic Employment Decision Technology Analysis with Focus on Bias Against Those with Disabilities
 
@@ -233,7 +233,8 @@ image::image/DT.jpg[]
 
 == Conclusions and Recommendations
 
-[.indent]After our analysis, there is clear evidence that AI companies who produce HCM/TA products have the capability to improve their accessibility features and shrink the gap of screen-outs for candidates with disabilities. It’s important that organizations offer accessibility features and accommodations. However, issues go beyond accommodations. Only offering accommodations does not necessarily mean the risk of screen-out is significantly less. Specifically we recommend: 
+[.indent]
+After our analysis, there is clear evidence that AI companies who produce HCM/TA products have the capability to improve their accessibility features and shrink the gap of screen-outs for candidates with disabilities. It’s important that organizations offer accessibility features and accommodations. However, issues go beyond accommodations. Only offering accommodations does not necessarily mean the risk of screen-out is significantly less. Specifically we recommend: 
 
 * Consideration of the timeframe of applicants receiving approval for accommodations. (Candidates need accommdations quickly.)
 * Enabling information sharing could assist with accomodations. (By information sharing we mean the sharing of voluntarily given personal data between public entities or other organizations for a specific goal through the exchange, collection, use, or disclosure. Such information sharing may provide candidates with disabilities better opportunities to receive accomadations and do so in a timely manner, without having to request accomadations separately for each role.) 
