@@ -2,7 +2,11 @@
 
 * Fix reference so they all use the asciifoc footnote functionality
 ** Have at least 10 references in reference section
-
+** Convert all mentions/links to footnotes
+* "Company" --> "Organization"
+* Move image out of appendix into results and discussion, and describe with a short paragraph
+* Remove static images table and replace with asciidoc. When you describe the table, you can describe how to read the table. 
+* Make sure all tables and figures have a description and short paragraph.
 
 = Automatic Employment Decision Technology Analysis with Focus on Bias Against Those with Disabilities
 
@@ -229,13 +233,19 @@ image::image/DT.jpg[]
 
 == Conclusions and Recommendations
 
-[.indent]
-Over the course of this study we investigated if the lack of accommodation and accessibility features in AI/ML and HCM/TA is causing screen-out harm to candidates with disabilities. After our analysis, there is clear evidence that AI companies who produce HCM/TA products have the capability to improve their accessibility features and shrink the gap of screen-outs for candidates with disabilities. It’s inherent that companies need to offer accessibility features and accommodations however it’s deeper than that. Only offering accommodations does not necessarily mean the risk of screen-out is significantly less. The timeframe of applicants receiving approval for those accommodations can play a prominent role in job opportunities, information sharing could assist with this concern. By information sharing we mean the sharing of voluntarily given personal data between public entities or other organizations for a specific goal through the exchange, collection, use, or disclosure. This would provide candidates with disabilities the opportunity to input information about their disabilities and needed accommodations to a government database. When a candidate requests accommodations the AI company can connect to that database and automatically grant accommodations to the candidate immediately. This would have to come with some regulation like audits conducted by the government to ensure companies are not using this information to do disparate treatment.
+[.indent]After our analysis, there is clear evidence that AI companies who produce HCM/TA products have the capability to improve their accessibility features and shrink the gap of screen-outs for candidates with disabilities. It’s important that organizations offer accessibility features and accommodations. However, issues go beyond accommodations. Only offering accommodations does not necessarily mean the risk of screen-out is significantly less. Specifically we recommend: 
 
-Companies have the responsibility to market their products correctly and avoid misleading language such as “Bias-free” if it does not actually apply. Moreover, we recommend that companies conduct bias-testing and include candidates with disabilities to avoid disparate impact. Especially bias testing for resume/profile screening and other systems that rely more on AI/ML processes, since accommodations are not as applicable in these circumstances. To mitigate the risk of producing biased outcomes, companies should collect demographically representative training data, sample and reweigh training data, reconsider dictionaries for stopwords, and consider fairness metrics when selecting hyperparameters and cutoff thresholds. Companies should also have an opt-out option for selection methods like having a live interview and/or not permitting companies to use an algorithm in their decision-making process. Product or comparative testing with those who have disabilities is also recommended to iterate a company’s prototype. This is especially important for companies that do not have the resources for specific accessibility staff. Furthermore, employing a diverse design team is important in producing a more inclusive and accurate product. Teams with employees who have disabilities have 72% more productivity and produce 30% higher profit margins.footnote:[https://www.accenture.com/_acnmedia/pdf-89/accenture-disability-inclusion-research-report.pdf] Companies should always refer to the link:https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf[NIST’s  Standard for Identifying and Managing Bias in Artificial Intelligence] when designing any AI products.
+* Consideration of the timeframe of applicants receiving approval for accommodations. (Candidates need accommdations quickly.)
+* Enabling information sharing could assist with accomodations. (By information sharing we mean the sharing of voluntarily given personal data between public entities or other organizations for a specific goal through the exchange, collection, use, or disclosure. Such information sharing may provide candidates with disabilities better opportunities to receive accomadations and do so in a timely manner, without having to request accomadations separately for each role.) 
+* Audits of AI/ML systems used in hiring for disparate treeatment, disparate impact, screenout and other types of discrimination, particularly for resume/profile screening and other systems that rely more on AI/ML processes, since accommodations are not as applicable in these circumstances. 
+* Avoiding false and misleading language such as “bias-free” when describing AI/ML systems used in hiring. 
+* Companies should collect demographically representative training data, sample and reweigh training data if necessary, and consider fairness metrics when selecting hyperparameters and cutoff threshold for employment decision making. 
+* Companies should also have opt-out options for selection methods based on AI/ML. (E.g., providing a live interview in place of algorithmic evaluation.) 
+* Inclusion of those who have disabilities in product design, implementation or testing. (This is especially important for companies that do not have the resources for specific accessibility staff). 
+* Increased diversity in design teams. (This is important in producing a more inclusive and accurate products. Teams with employees who have disabilities have 72% more productivity and produce 30% higher profit margins.footnote:[https://www.accenture.com/_acnmedia/pdf-89/accenture-disability-inclusion-research-report.pdf])
+* Companies should apply external, independent standards to the design of AI/ML systems to mitigate bias, e.g., link:https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf[NIST’s  Standard for Identifying and Managing Bias in Artificial Intelligence].
 
-
-
+Over the course of this study we investigated if the lack of accommodation and accessibility features in AI/ML and HCM/TA is causing screen-out harm to candidates with disabilities. While AI/ML presents opportunities for reduced bias in HCM/TA applications, risk controls and mitigants, like those recommended here are required to deliver on that promise. 
 
 == References
 
