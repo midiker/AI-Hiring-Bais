@@ -1,9 +1,3 @@
-= TODO
-
-* Fix reference so they all use the asciifoc footnote functionality
-** Have at least 10 references in reference section
-** Convert all mentions/links to footnotes
-* Remove static images table and replace with asciidoc. When you describe the table, you can describe how to read the table.
 
 = Automatic Employment Decision Technology Analysis with Focus on Bias Against Those with Disabilities
 
@@ -48,8 +42,8 @@ WARNING: 99% of Fortune 500 organizations had AI tools somewhere within their hi
 The Americans with Disabilities Act (ADA) states that "Screen out because of a disability is unlawful if the individual who is screened out is able to perform the essential functions of the job, with a reasonable accommodation if one is legally required".footnote:[Issuing Authority This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission., and This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. “The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees.” US EEOC. Accessed November 28, 2022. https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.] Some examples are Gamification,
 AI video interview software, and Chatbots without providing accommodations. These AI technologies affect candidates with different disabilities in various ways. Some “gamified” tests maybe present an advantage for some neurodivergent candidates but not for others candidates
 with physical disabilities. AI video interview software can negatively impact both neurodivergent and physical disabilities candidates. For example, an algorithm may not recognize a candidate with a speech impairment, or for neurodivergent candidates face reading software may score them
-low for not showing socially acceptable facial expressions. The lack of employees with disabilities in the technology industry contribute to the proliferation of these technologies and an increase in screen-outs. In 2020, the percentage of persons with a disability making $75k or more a
-year was 40.01% less than those without a disabilityfootnote:[https://data.census.gov/table?q=Disability&tid=ACSST5Y2020.S1811]. There is a significant gap of representation among higher paying careers and screen-outs caused by AI hiring technology
+low for not showing socially acceptable facial expressions. Moreover, some AI video algorithms have been know to diagnose candidates as disabled without their consent which is particularly worrisome.footnote:[Whittaker, Meredith, Meryl Alper, Cynthia L. Bennett, Sara Hendren, Liz Kaziunas, Mara Mills, Meredith Ringel Morris et al. "Disability, bias, and AI." AI Now Institute (2019)] The lack of employees with disabilities in the technology industry contribute to the proliferation of these technologies and an increase in screen-outs. In 2020, the percentage of persons with a disability making $75k or more a
+year was 40.01% less than those without a disabilityfootnote:[Bureau, U.S. Census. Explore census data. Accessed December 4, 2022. https://data.census.gov/table?q=Disability&amp;tid=ACSST5Y2020.S1811.]. There is a significant gap of representation among higher paying careers and screen-outs caused by AI hiring technology
 creates a larger gap.
 
 
@@ -144,7 +138,7 @@ image::image/bar_chart.png[2000,2000]
 | Maybe | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33
 |=======
 
-*** In the pivot table above we can see in our dataset small organizations which have lees than 100 employees vary on performance. For example, smaller organizations tended to market their products as “Bias-Free” less than larger organizations, at a rate of 11.67% less.
+*** In the pivot table 1 above, we can see in our dataset small organizations which have lees than 100 employees vary on performance. For example, smaller organizations tended to market their products as “Bias-Free” less than larger organizations, at a rate of 11.67% less.
 However, smaller organizations performed worse on the majority of categories, including “offering accommodations,” “having accessibility staff,” “reporting bias testing.” This makes sense on its face, smaller organizations with access to less resources would not prioritize these accommodations, however this does not excuse such behavior.
 
 [.underline]*Organizations that don't offer accommodations poor performance across other categories/features*
@@ -153,7 +147,7 @@ However, smaller organizations performed worse on the majority of categories, in
 |=======
 | ‘Bias-Free'/No bias  | Video Screening | Offers Accommodations  |   Count
 | Maybe | Maybe | Yes |   1
-|  | No| No    |       5
+| ""| No| No    |       5
 | No| Maybe | No  |       2
 | | No | Maybe    |       2
 | | | No    |            9
@@ -164,7 +158,9 @@ However, smaller organizations performed worse on the majority of categories, in
 |  | Yes | No    |           3
 |=======
 
-*** This shows a surprising trend of the highest count performing better across other categories/features specifically not marketing their product as ‘Bias-Free'/No bias  and conducting AI Video Screening.
+IMPORTANT: To read this table start from the left most column and if a cell is blank then follow the first filled cell above
+
+*** Tabe 2 shows a surprising trend of the highest count performing better across other categories/features specifically not marketing their product as ‘Bias-Free'/No bias  and conducting AI Video Screening.
 
 [.underline]*Organizations mentioning neurodiversity on their website versus physical disabilities*
 
@@ -180,6 +176,8 @@ However, smaller organizations performed worse on the majority of categories, in
 | |Yes |No | 4
 | | |Yes | 1
 |=======
+
+IMPORTANT: To read this table start from the left most column and if a cell is blank then follow the first filled cell above
 
 *** As shown in table 3, we can clearly observe that half of our organizations in the sample do not address physical disabilities or neurodiversity and do not offer accommodations of any kind. However, we can also see that for the organizations that do offer accommodations, they only address neurodiversity. There is only one organization out of the sample that addresses both physical disabilities and neurodiversity. Another interesting observation is that four organizations that do not offer accommodations address both physical disabilities and neurodiversity.
 
@@ -239,8 +237,8 @@ After our analysis, there is clear evidence that AI organizations who produce HC
 * Organizations should collect demographically representative training data, sample and reweigh training data if necessary, and consider fairness metrics when selecting hyperparameters and cutoff threshold for employment decision making.
 * Organizations should also have opt-out options for selection methods based on AI/ML. (E.g., providing a live interview in place of algorithmic evaluation.)
 * Inclusion of those who have disabilities in product design, implementation or testing. (This is especially important for organizations that do not have the resources for specific accessibility staff).
-* Increased diversity in design teams. (This is important in producing a more inclusive and accurate products. Teams with employees who have disabilities have 72% more productivity and produce 30% higher profit margins.footnote:[https://www.accenture.com/_acnmedia/pdf-89/accenture-disability-inclusion-research-report.pdf])
-* Organizations should apply external, independent standards to the design of AI/ML systems to mitigate bias, e.g., link:https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf[NIST’s  Standard for Identifying and Managing Bias in Artificial Intelligence].
+* Increased diversity in design teams. (This is important in producing a more inclusive and accurate products. Teams with employees who have disabilities have 72% more productivity and produce 30% higher profit margins.footnote:[“Getting to Equal: The Disability Inclusion Advantage | Accenture.” Accessed December 5, 2022. https://www.accenture.com/_acnmedia/PDF-89/Accenture-Disability-Inclusion-Research-Report.pdf])
+* Organizations should apply external, independent standards to the design of AI/ML systems to mitigate bias, e.g., link:https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf[NIST’s  Standard for Identifying and Managing Bias in Artificial Intelligence].footnote:[Schwartz, Reva, Apostol Vassilev, Kristen Greene, Lori Perine, Andrew Burt, and Patrick Hall. "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence." (2022)]
 
 Over the course of this study we investigated if the lack of accommodation and accessibility features in AI/ML and HCM/TA is causing screen-out harm to candidates with disabilities. While AI/ML presents opportunities for reduced bias in HCM/TA applications, risk controls and mitigants, like those recommended here are required to deliver on that promise.
 
