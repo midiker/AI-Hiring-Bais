@@ -42,7 +42,7 @@ WARNING: 99% of Fortune 500 organizations had AI tools somewhere within their hi
 The Americans with Disabilities Act (ADA) states that "Screen out because of a disability is unlawful if the individual who is screened out is able to perform the essential functions of the job, with a reasonable accommodation if one is legally required".footnote:[Issuing Authority This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission., and This technical assistance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. “The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees.” US EEOC. Accessed November 28, 2022. https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.] Some examples are Gamification,
 AI video interview software, and Chatbots without providing accommodations. These AI technologies affect candidates with different disabilities in various ways. Some “gamified” tests maybe present an advantage for some neurodivergent candidates but not for others candidates
 with physical disabilities. AI video interview software can negatively impact both neurodivergent and physical disabilities candidates. For example, an algorithm may not recognize a candidate with a speech impairment, or for neurodivergent candidates face reading software may score them
-low for not showing socially acceptable facial expressions. Moreover, some AI video algorithms have been know to diagnose candidates as disabled without their consent which is particularly worrisome.footnote:[Whittaker, Meredith, Meryl Alper, Cynthia L. Bennett, Sara Hendren, Liz Kaziunas, Mara Mills, Meredith Ringel Morris et al. "Disability, bias, and AI." AI Now Institute (2019)] The lack of employees with disabilities in the technology industry contribute to the proliferation of these technologies and an increase in screen-outs. In 2020, the percentage of persons with a disability making $75k or more a
+low for not showing socially acceptable facial expressions. Moreover, some AI video algorithms have been know to diagnose candidates as disabled without their consent which is particularly worrisome.footnote:[Whittaker, Meredith, Meryl Alper, Cynthia L. Bennett, Sara Hendren, Liz Kaziunas, Mara Mills, Meredith Ringel Morris et al. "Disability, bias, and AI." AI Now Institute (2019)] The lack of employees with disabilities in the technology industry contributes to the proliferation of these technologies and an increase in screen-outs. In 2020, the percentage of persons with a disability making $75k or more a
 year was 40.01% less than those without a disabilityfootnote:[Bureau, U.S. Census. Explore census data. Accessed December 4, 2022. https://data.census.gov/table?q=Disability&amp;tid=ACSST5Y2020.S1811.]. There is a significant gap of representation among higher paying careers and screen-outs caused by AI hiring technology
 creates a larger gap.
 
@@ -51,10 +51,10 @@ creates a larger gap.
 link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
 
 [.indent]
-First we created a 30 organizations list of the top AI organizations offering HCM/TA products including both well-know Fortune 500 organizations and small start ups.
-Then we assessed what type of HCM/TA product(s) does the organization offer such as video screening, resume/profile screening, and/or Chatbots. Furthermore
-we invested if the organization's website marketed their product as "Bias-Free" or or used similar language which is very concerning. We looked if there is public evidence of accessibility staff on the organization’s website or LinkedIn and has accommodations directly for the AI/ML software displays
-on their website including timeframe on those given accommodations. Investigating the compression of the organization's addressment of different types of disabilities.
+First we created a 30 organizations list of the top AI organizations offering HCM/TA products including both well-known Fortune 500 organizations and small start-ups.
+Then we assessed what type of HCM/TA product(s) the organization offer such as video screening, resume/profile screening, and/or Chatbots. Furthermore,
+we investigated if the organization's website marketed its product as "Bias-Free" or used similar language. We checked if there was public evidence of accessibility staff on the organization’s website or LinkedIn, and whether they had accommodations directly for the AI/ML software displays
+on their website like a timeframe on those given accommodations. Finally, we investigated the organization's addressment of different types of disabilities.
 
 === Data Dictionary
 [cols="1,2,5", options="header"]
@@ -64,7 +64,7 @@ on their website including timeframe on those given accommodations. Investigatin
 
 |"Bias-Free"/No bias
 |1 = yes, 0 = no,  2=maybe
-|If yes, organization’s website displays the term "Bias-Free" or similar language, such as eliminates bias, in relation to organization's AI/ML technology or  AI/ML technology in general.
+|If yes, organization’s website displays the term "Bias-Free" or similar language, such as “eliminates bias,” in relation to organization's AI/ML technology or  AI/ML technology in general.
 
 |Video Screening
 |1 = yes, 0 = no,  2=maybe
@@ -92,15 +92,15 @@ on their website including timeframe on those given accommodations. Investigatin
 
 |Offers Accommodations
 |1 = yes, 0 = no,  2=maybe
-|If yes, organization has accommodations directly for the AI/ML software
+|If yes, organization has accommodations specifically for the AI/ML software
 
 |Immediate/Timeframe for Accommodations
 |1 = yes, 0 = no,  2=maybe
-|If yes, organization gives immediate or a timeframe for when accommodations would be to candidates for AI/ML software.
+|If yes, organization gives immediate accomodations or a timeframe for when accommodations would be to candidates for AI/ML software.
 
 |Reports Bias Testing
 |1 = yes, 0 = no,  2=maybe
-|If yes, organization states on the its website the organization preforms a third Party audits or its own audits for bias in their AI/ML models. Note: this might not include bias testing for disability
+|If yes, organization states on its website that the organization has a third party audit or its own audits for bias in their AI/ML models. Note: this might not include bias testing for disability.
 
 |Number of Total Staff
 |Small < 100, Medium < 1000, Large > 1001
@@ -109,7 +109,7 @@ on their website including timeframe on those given accommodations. Investigatin
 
 [.indent]
 
-After data  collection, we performed data exploration with categorical descriptive statistics, such as counts and frequencies, and decision tree. This gave us the ability to find trends and draw conclusions about our dataset and evaluate our hypothesis.
+After data collection, we performed data exploration with categorical descriptive statistics, such as counts, frequencies, and decision trees. These gave us the ability to find trends and draw conclusions about our dataset in order to  evaluate our hypothesis.
 
 ** Columns used as targets in the final model: ‘Offers Accommodations_Yes'
 
@@ -127,7 +127,7 @@ After data  collection, we performed data exploration with categorical descripti
 
 image::image/bar_chart.png[2000,2000]
 
-*** The first set of bar charts below shows a wholelitsc view of all 11 features. There are a couple of interesting findings we see here, 23 of the 30 organizations do not offer accomadations and 25 do not have accessibility staff.
+*** The first set of bar charts below shows a holistic view of all 11 features. There are a couple of interesting findings we see here, 23 of the 30 organizations do not offer accommodations and 25 do not have accessibility staff.
 
 
 
@@ -142,8 +142,8 @@ image::image/bar_chart.png[2000,2000]
 | Maybe | -3.33 | -1.67 | nan | nan | nan | nan | nan | nan | -3.33
 |=======
 
-*** In the pivot table 1 above, we can see in our dataset small organizations which have lees than 100 employees vary on performance. For example, smaller organizations tended to market their products as “Bias-Free” less than larger organizations, at a rate of 11.67% less.
-However, smaller organizations performed worse on the majority of categories, including “offering accommodations,” “having accessibility staff,” “reporting bias testing.” This makes sense on its face, smaller organizations with access to less resources would not prioritize these accommodations, however this does not excuse such behavior.
+*** In the pivot table 1 above, we can see in our dataset for small organizations which have less than 100 employees vary on performance. For example, smaller organizations tended to market their products as “Bias-Free” less than larger organizations, at a rate of 11.67% less.
+However, smaller organizations performed worse on the majority of categories, including “offering accommodations,” “having accessibility staff,” and “reporting bias testing.” This makes sense on its face, smaller organizations with access to less resources would not prioritize these accommodations, however this does not excuse such behavior.
 
 [.underline]*Organizations that don't offer accommodations poor performance across other categories/features*
 
@@ -164,7 +164,7 @@ However, smaller organizations performed worse on the majority of categories, in
 
 IMPORTANT: To read this table start from the left most column and if a cell is blank then follow the first filled cell above
 
-*** Tabe 2 shows a surprising trend of the highest count performing better across other categories/features specifically not marketing their product as ‘Bias-Free'/No bias  and conducting AI Video Screening.
+*** Table 2 shows a surprising trend of the highest count performing better across other categories/features specifically not marketing their product as ‘Bias-Free'/No bias and conducting AI Video Screening.
 
 [.underline]*Organizations mentioning neurodiversity on their website versus physical disabilities*
 
@@ -183,7 +183,7 @@ IMPORTANT: To read this table start from the left most column and if a cell is b
 
 IMPORTANT: To read this table start from the left most column and if a cell is blank then follow the first filled cell above
 
-*** As shown in table 3, we can clearly observe that half of our organizations in the sample do not address physical disabilities or neurodiversity and do not offer accommodations of any kind. However, we can also see that for the organizations that do offer accommodations, they only address neurodiversity. There is only one organization out of the sample that addresses both physical disabilities and neurodiversity. Another interesting observation is that four organizations that do not offer accommodations address both physical disabilities and neurodiversity.
+*** As shown in table 3, we can observe that half of our organizations in the sample do not address physical disabilities or neurodiversity and do not offer accommodations of any kind. However, we can also see that for the organizations that do offer accommodations, most only address neurodiversity. There is only one organization out of the sample that addresses both physical disabilities and neurodiversity. Another interesting observation is that the four organizations that do not offer accommodations address both physical disabilities and neurodiversity.
 
 [.underline]*Accommodations group by the organizations who reports bias testing*
 
@@ -195,7 +195,7 @@ IMPORTANT: To read this table start from the left most column and if a cell is b
 |Maybe |18.18%
 |===
 
-*** In table 4 we see an interesting trend in organizations reporting bias testing and offering accommodations. Out of the organizations that do bias testing, the majority of those (54.55%) do not offer accommodations.
+*** In table 4 we see an interesting trend in organizations reporting bias testing and offering accommodations. Out of the organizations that do bias testing the majority of those (54.55%) do not offer accommodations.
 
 [.underline]*Accommodations group by the organizations who offer AI/ML video screening products*
 
@@ -207,7 +207,7 @@ IMPORTANT: To read this table start from the left most column and if a cell is b
 |Maybe |0%
 |===
 
-*** In table 5, organizations which offer AI/ML video screening 83.33% do not offer accommodations. This is particularly concerning because video screening is an AI technology that can severely impact candidates with disabilities. Relying so heavily on this one method can lead to screen outs.
+*** In table 5, organizations which offer AI/ML video screening, 83.33% do not offer accommodations. This is particularly concerning because video screening is an AI technology that can severely impact candidates with disabilities. Relying so heavily on this one method can lead to screen outs.
 
 [.underline]*Immediate/Timeframe for Accommodations group by the organizations who offer accommodations*
 
@@ -220,13 +220,13 @@ IMPORTANT: To read this table start from the left most column and if a cell is b
 |===
 
 *** In table 6 we see that only 40% of organizations that offer accommodations offer these accommodations immediately or provide a timetable. Immediately providing accommodations or offering a timeframe can significantly reduce the chance of screen outs because the candidate is less likely to get
-passed by candidates that do not required accommodations.
+passed by candidates that do not require accommodations.
 
 [.underline]*Decision Tree*
 
 image::image/dt.png[2000,2000]
 
-*** There is a couple of interesting insights to draw from this decision tree. Only 16.7% of Organizations have  public evidence of accessibility staff on the organization’s website or LinkedIn and if these organizations have Chatbots also, 3.3% of the total sample offer accommodations. Another surprising insights, 83.3% of Organizations have  public evidence of accessibility staff on the organization’s website or LinkedIn and if the organization’s website addresses ways to assist and/or the benefits of hiring neurodivergent candidates also, 56.7% of the total sample offer accommodations. 
+*** There are a couple of interesting insights to draw from this decision tree. Only 16.7% of Organizations have public evidence of accessibility staff on the organization’s website or LinkedIn and if these organizations have Chatbots also, then 3.3% of the total sample offer accommodations. Another surprising insight is that 83.3% of Organizations have public evidence of accessibility staff on the organization’s website or LinkedIn, and if the organization’s website addresses ways to assist and/or the benefits of hiring neurodivergent candidates also, then 56.7% of the total sample do not offer accommodations.
 
 
 
@@ -235,14 +235,14 @@ image::image/dt.png[2000,2000]
 [.indent]
 After our analysis, there is clear evidence that AI organizations who produce HCM/TA products have the capability to improve their accessibility features and shrink the gap of screen-outs for candidates with disabilities. It’s important that organizations offer accessibility features and accommodations. However, issues go beyond accommodations. Only offering accommodations does not necessarily mean the risk of screen-out is significantly less. Specifically we recommend:
 
-* Consideration of the timeframe of applicants receiving approval for accommodations. (Candidates need accommdations quickly.)
-* Enabling information sharing could assist with accomodations. (By information sharing we mean the sharing of voluntarily given personal data between public entities or other organizations for a specific goal through the exchange, collection, use, or disclosure. Such information sharing may provide candidates with disabilities better opportunities to receive accomadations and do so in a timely manner, without having to request accomadations separately for each role.)
-* Audits of AI/ML systems used in hiring for disparate treeatment, disparate impact, screenout and other types of discrimination, particularly for resume/profile screening and other systems that rely more on AI/ML processes, since accommodations are not as applicable in these circumstances.
+* Consideration of the timeframe of applicants receiving approval for accommodations. (Candidates need accommodationsaccommdations quickly.)
+* Enabling information sharing could assist with accommodations accomodations. (By information sharing we mean the sharing of voluntarily given personal data between public entities or other organizations for a specific goal through the exchange, collection, use, or disclosure. Such information sharing may provide candidates with disabilities better opportunities to receive accommodationsaccomadations and do so in a timely manner, without having to request accommodationsaccomadations separately for each role.)
+* Audits of AI/ML systems used in hiring for disparate treatmenttreeatment, disparate impact, screenout and other types of discrimination, particularly for resume/profile screening and other systems that rely more on AI/ML processes, since accommodations are not as applicable in these circumstances.
 * Avoiding false and misleading language such as “bias-free” when describing AI/ML systems used in hiring.
 * Organizations should collect demographically representative training data, sample and reweigh training data if necessary, and consider fairness metrics when selecting hyperparameters and cutoff threshold for employment decision making.
 * Organizations should also have opt-out options for selection methods based on AI/ML. (E.g., providing a live interview in place of algorithmic evaluation.)
 * Inclusion of those who have disabilities in product design, implementation or testing. (This is especially important for organizations that do not have the resources for specific accessibility staff).
-* Increased diversity in design teams. (This is important in producing a more inclusive and accurate products. Teams with employees who have disabilities have 72% more productivity and produce 30% higher profit margins.footnote:[“Getting to Equal: The Disability Inclusion Advantage | Accenture.” Accessed December 5, 2022. https://www.accenture.com/_acnmedia/PDF-89/Accenture-Disability-Inclusion-Research-Report.pdf])
+* Increased diversity in design teams. (This is important in producing moreproducing a more inclusive and accurate products. Teams with employees who have disabilities have 72% more productivity and produce 30% higher profit margins.footnote:[“Getting to Equal: The Disability Inclusion Advantage | Accenture.” Accessed December 5, 2022. https://www.accenture.com/_acnmedia/PDF-89/Accenture-Disability-Inclusion-Research-Report.pdf])
 * Organizations should apply external, independent standards to the design of AI/ML systems to mitigate bias, e.g., link:https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf[NIST’s  Standard for Identifying and Managing Bias in Artificial Intelligence].footnote:[Schwartz, Reva, Apostol Vassilev, Kristen Greene, Lori Perine, Andrew Burt, and Patrick Hall. "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence." (2022)]
 
 Over the course of this study we investigated if the lack of accommodation and accessibility features in AI/ML and HCM/TA is causing screen-out harm to candidates with disabilities. While AI/ML presents opportunities for reduced bias in HCM/TA applications, risk controls and mitigants, like those recommended here are required to deliver on that promise.
