@@ -123,12 +123,16 @@ After data  collection, we performed data exploration with categorical descripti
 
 == Results and Discussion
 
-The first set of bar charts below shows a wholelitsc view of all 11 features. There are a couple of interesting findings we see here, 23 of the 30 organizations do not offer accomadations and 25 do not have accessibility staff.
+[.underline]*Summary of features*
 
 image::image/bar_chart.png[2000,2000]
 
+*** The first set of bar charts below shows a wholelitsc view of all 11 features. There are a couple of interesting findings we see here, 23 of the 30 organizations do not offer accomadations and 25 do not have accessibility staff.
 
-[.underline]*Compression of smaller organizations to the whole sample*
+
+
+
+[.underline]*Comparison of smaller organizations to the whole sample*
 
 [options="header"]
 |=======
@@ -218,10 +222,11 @@ IMPORTANT: To read this table start from the left most column and if a cell is b
 *** In table 6 we see that only 40% of organizations that offer accommodations offer these accommodations immediately or provide a timetable. Immediately providing accommodations or offering a timeframe can significantly reduce the chance of screen outs because the candidate is less likely to get
 passed by candidates that do not required accommodations.
 
-** Decision Tree
-+
+[.underline]*Decision Tree*
 
-image::image/DT.jpg[]
+image::image/dt.png[2000,2000]
+
+*** There is a couple of interesting insights to draw from this decision tree. Only 16.7% of Organizations have  public evidence of accessibility staff on the organization’s website or LinkedIn and if these organizations have Chatbots also, 3.3% of the total sample offer accommodations. Another surprising insights, 83.3% of Organizations have  public evidence of accessibility staff on the organization’s website or LinkedIn and if the organization’s website addresses ways to assist and/or the benefits of hiring neurodivergent candidates also, 56.7% of the total sample offer accommodations. 
 
 
 
