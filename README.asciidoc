@@ -7,6 +7,7 @@
 This study examines the potential for screen-out harm to job seekers with disabilities due to inadequate accommodations and accessibility features in automated employment decision tools (AEDTs) based on artificial intelligence or machine learning (AI/ML). Data was collected and analyzed from 30 organizations offering such AEDTs, focusing on publicly available information regarding accommodations and accessibility features, organizational size, specific products offered, bias testing practices, and accessibility staff. Most organizations in the study do not offer accommodations in their AI/ML-enabled AEDT products and are not actively addressing the needs of candidates with disabilities. Worse, some AEDT providers misrepresent their tools with claims of “bias-free” decision making and offer employment assessments based on questionable video analysis approaches. These findings align with broader concerns about the potential for screen-out and other harms as a result of shortcomings in the design and implementation of AEDTs.
 
 * link:https://github.com/midiker/aedt-analysis/blob/main/aedt_analysis.ipynb[Code implementation]
+* link:https://medium.com/@midiken_24769/aedt-where-marketing-and-reality-collide-5ae3f2ef2ea3[Medium writeup]
 
 === Data Dictionary
 [cols="1,2,5", options="header"]
